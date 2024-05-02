@@ -182,3 +182,7 @@
   .flex-save{
     display: flex;
     justify-content: center;}
+
+  .control-block{
+    margin-top: 50px;
+  }
