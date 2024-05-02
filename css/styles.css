@@ -182,6 +182,10 @@
   
   .flex-save{
     display: flex;
-    justify-content: center;}
+    justify-content: center;
+  }
+  .centered{
+    margin-top: 50px;
+  }
 
   
