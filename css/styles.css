@@ -154,6 +154,7 @@
     padding-right: 20px;
     display: flex;
     margin-top: 50px;
+    margin-bottom: 50px;
   }
   .back {
     display: block;
@@ -183,6 +184,4 @@
     display: flex;
     justify-content: center;}
 
-  .control-block{
-    margin-top: 50px;
-  }
+  
