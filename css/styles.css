@@ -119,6 +119,9 @@
   
     font-weight: 400;
     font-size: 20px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
   #form-type-box,
   #nails-mode-box,
@@ -153,8 +156,10 @@
     padding-left: 20px;
     padding-right: 20px;
     display: flex;
-    margin-top: 50px;
-    margin-bottom: 50px !important;
+    margin-top: 20px;
+    margin-bottom: 20px !important;
+    margin-left: 5px;
+    margin-right: 5px;
   }
   .back {
     display: block;
@@ -174,6 +179,11 @@
     align-items: center;
     font-weight: 400;
     font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+  #save-btn{
+   height: 62px;
   }
   
   .hidden {
@@ -183,5 +193,29 @@
   .flex-save{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
+  #info-box{
+    margin-top: 20px;
+    border: 1px solid #b9b6ea;
+    border-radius: 20px;
+    padding-left: 10px;
+  }
+  #canvas{
+    border: 1px solid #b9b6ea;
+    border-radius: 20px;
+  }
+  .video{
+    border: 1px solid #b9b6ea;
+    border-radius: 20px;
+  }
+/* .generate{
+  background-color: #32CD32 !important;
+}
+.reset{
+  background-color: #b9b6ea !important;
+  color: #000 !important;
+} */
  

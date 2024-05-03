@@ -44,17 +44,19 @@
         </div>
       </div>
 
+      <div class="video">
+        <img src="./img/video.png" alt="" class="back" />
+      </div>
+
       <div class="controls">
         <div class="control-block centered no-top-padding">
           <input
             type="submit"
             id="select-btn"
             value="ВИБРАТИ ЗОБРАЖЕННЯ"
-          /><br />
+          />
         </div>
-        <div class="video">
-          <img src="./img/video.png" alt="" class="back" />
-        </div>
+       
 
         <div id="controls-box ">
           <div class="control-block no-top-padding hidden">
@@ -77,7 +79,7 @@
 
           <div class="control-block no-margin no-top-padding pink-block">
             <label
-              ><b>Контрастность</b><br />
+              ><b>Контрастність</b><br />
               <input
                 type="range"
                 id="contrast-box"
@@ -91,7 +93,7 @@
             <div class="range-label" id="contrast-value">0</div>
 
             <label
-              ><b>Яркость</b><br />
+              ><b>Яскравість</b><br />
               <input
                 type="range"
                 id="brightness-box"
@@ -131,7 +133,7 @@
               <input
                 type="number"
                 id="lines-count-box"
-                value="5000"
+                value="5"
                 min="100"
                 max="10000"
                 disabled
@@ -170,8 +172,8 @@
           </div>
 
           <div class="control-block centered">
-            <input type="submit" id="generate-btn" value="Запустити" disabled />
-            <input type="submit" id="reset-btn" value="Скинути" disabled />
+            <input type="submit" id="generate-btn" class="generate" value="Запустити" disabled />
+            <input type="submit" id="reset-btn" class="reset" value="Скинути" disabled />
             <div id="status-box"></div>
           </div>
         </div>
@@ -181,7 +183,7 @@
         </div>
 
         <div id="save-box" style="display: none">
-          <hr />
+          
           <div class="control-block no-top-padding">
             <label
               ><b>Формат сохранения:</b>
@@ -195,8 +197,8 @@
               <input type="submit" id="save-btn" value="Зберегти" />
             </div>
             <div class="send-btn">
-              <!-- <input href="https://t.me/ume_art" type="button" id="save-btn" value="Надіслати" /> -->
-              <button id="save-btn" type="button"><a href="https://t.me/ume_art" target="_blank"  >Надіслати</a></button>
+              <button id="save-btn" type="button"><a href="https://t.me/ume_art" target="_blank"  >Надіслати Telegram</a></button>
+              <button id="save-btn" type="button"><a href="viber://chat?number=+380936647512" target="_blank"  >Надіслати Viber</a></button>
             </div>
           </div>
         </div>
